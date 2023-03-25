@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/*your.gh-page.link.goes.here*/static/css/main.689f8279.css",
-    "main.js": "/*your.gh-page.link.goes.here*/static/js/main.355b5d0c.js",
-    "Characters.css": "/*your.gh-page.link.goes.here*/static/css/Characters.b35b4ac2.chunk.css",
-    "Characters.js": "/*your.gh-page.link.goes.here*/static/js/Characters.15c672b9.chunk.js",
-    "Episode.css": "/*your.gh-page.link.goes.here*/static/css/Episode.03a21e4f.chunk.css",
-    "Episode.js": "/*your.gh-page.link.goes.here*/static/js/Episode.039630c7.chunk.js",
-    "Locations.css": "/*your.gh-page.link.goes.here*/static/css/Locations.b61b3f04.chunk.css",
-    "Locations.js": "/*your.gh-page.link.goes.here*/static/js/Locations.212369b0.chunk.js",
-    "static/media/video.mp4": "/*your.gh-page.link.goes.here*/static/media/video.c67f149f5a3120018c8e.mp4",
-    "static/media/rick-and-morty-crying.gif": "/*your.gh-page.link.goes.here*/static/media/rick-and-morty-crying.4849d0f1a89ae2ae8bbe.gif",
-    "static/media/pickle-rick.png": "/*your.gh-page.link.goes.here*/static/media/pickle-rick.5b81fe0d04811215c0f8.png",
-    "index.html": "/*your.gh-page.link.goes.here*/index.html",
-    "main.689f8279.css.map": "/*your.gh-page.link.goes.here*/static/css/main.689f8279.css.map",
-    "main.355b5d0c.js.map": "/*your.gh-page.link.goes.here*/static/js/main.355b5d0c.js.map",
-    "Characters.b35b4ac2.chunk.css.map": "/*your.gh-page.link.goes.here*/static/css/Characters.b35b4ac2.chunk.css.map",
-    "Characters.15c672b9.chunk.js.map": "/*your.gh-page.link.goes.here*/static/js/Characters.15c672b9.chunk.js.map",
-    "Episode.03a21e4f.chunk.css.map": "/*your.gh-page.link.goes.here*/static/css/Episode.03a21e4f.chunk.css.map",
-    "Episode.039630c7.chunk.js.map": "/*your.gh-page.link.goes.here*/static/js/Episode.039630c7.chunk.js.map",
-    "Locations.b61b3f04.chunk.css.map": "/*your.gh-page.link.goes.here*/static/css/Locations.b61b3f04.chunk.css.map",
-    "Locations.212369b0.chunk.js.map": "/*your.gh-page.link.goes.here*/static/js/Locations.212369b0.chunk.js.map"
+    "main.css": "/rickandmorty/static/css/main.689f8279.css",
+    "main.js": "/rickandmorty/static/js/main.bc1f95da.js",
+    "Characters.css": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css",
+    "Characters.js": "/rickandmorty/static/js/Characters.15c672b9.chunk.js",
+    "Episode.css": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css",
+    "Episode.js": "/rickandmorty/static/js/Episode.039630c7.chunk.js",
+    "Locations.css": "/rickandmorty/static/css/Locations.b61b3f04.chunk.css",
+    "Locations.js": "/rickandmorty/static/js/Locations.212369b0.chunk.js",
+    "static/media/video.mp4": "/rickandmorty/static/media/video.c67f149f5a3120018c8e.mp4",
+    "static/media/rick-and-morty-crying.gif": "/rickandmorty/static/media/rick-and-morty-crying.4849d0f1a89ae2ae8bbe.gif",
+    "static/media/pickle-rick.png": "/rickandmorty/static/media/pickle-rick.5b81fe0d04811215c0f8.png",
+    "index.html": "/rickandmorty/index.html",
+    "main.689f8279.css.map": "/rickandmorty/static/css/main.689f8279.css.map",
+    "main.bc1f95da.js.map": "/rickandmorty/static/js/main.bc1f95da.js.map",
+    "Characters.b35b4ac2.chunk.css.map": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css.map",
+    "Characters.15c672b9.chunk.js.map": "/rickandmorty/static/js/Characters.15c672b9.chunk.js.map",
+    "Episode.03a21e4f.chunk.css.map": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css.map",
+    "Episode.039630c7.chunk.js.map": "/rickandmorty/static/js/Episode.039630c7.chunk.js.map",
+    "Locations.b61b3f04.chunk.css.map": "/rickandmorty/static/css/Locations.b61b3f04.chunk.css.map",
+    "Locations.212369b0.chunk.js.map": "/rickandmorty/static/js/Locations.212369b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.689f8279.css",
-    "static/js/main.355b5d0c.js"
+    "static/js/main.bc1f95da.js"
   ]
 }
