@@ -1,0 +1,5 @@
+{
+  "commentTranslate.targetLanguage": "ru",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "commentTranslate.hover.enabled": true
+}

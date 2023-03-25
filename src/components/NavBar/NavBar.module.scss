@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  font-size: 1rem;
+  ul {
+    display: flex;
+    column-gap: 1.25rem;
+  }
+  li {
+    cursor: pointer;
+    transition: color var(--duration) ease-in-out;
+    &:hover {
+      color: var(--main-hover);
+    }
+    &:active {
+      color: var(--main-active);
+    }
+  }
+}
+
+nav {
+  margin-right: 50px;
+}
+
+.box {
+  display: flex;
+  column-gap: 20px;
+  cursor: pointer;
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+  }
+  svg path {
+    fill: var(--dark-color);
+    stroke: none;
+    transition: fill var(--duration) ease-in-out;
+    &:hover {
+      fill: var(--main-hover);
+      stroke: none;
+    }
+    &:active {
+      fill: var(--main-active);
+    }
+  }
+}
+
+.favorite {
+  display: inline-block;
+}
+
+.theme {
+  svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}

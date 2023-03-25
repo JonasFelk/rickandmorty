@@ -1,0 +1,40 @@
+.root {
+  text-align: center;
+  user-select: none;
+  padding: 20px 0;
+  li {
+    display: inline-flex;
+    border: 1px solid #000;
+    transition: background-color var(--duration) ease-in-out;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      transition: color var(--duration) ease-in-out;
+      cursor: pointer;
+    }
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    &:hover {
+      background-color:  var(--accent-color);
+      a {
+        color: #fff;
+      }
+    }
+  }
+  :global {
+    .selected {
+      a {
+        background-color: var(--main-hover);
+        color: #fff;
+        border-radius: inherit;
+      }
+    }
+    .break {
+      border: none;
+    }
+  }
+}

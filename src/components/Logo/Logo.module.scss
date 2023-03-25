@@ -1,0 +1,12 @@
+.root {
+  svg {
+    fill: var(--dark-color);
+    transition: fill var(--duration) ease-in-out;
+    &:hover {
+      fill: var(--main-hover);
+    }
+    &:active {
+      fill: var( --main-active);
+    }
+  }
+}

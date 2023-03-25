@@ -1,0 +1,54 @@
+@import './media';
+@import './normalize';
+@import './vars';
+// @import-normalize;
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  color: #000;
+  font-weight: 400;
+  // width: 100vw;
+  // overflow-x: hidden;
+}
+
+.none {
+  display: none !important;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  
+
+  ::selection {
+    background-color: #000;
+    color: #1cef18;
+  }
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+}
+
+.container-right {
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+  overflow-x: hidden;
+}
+
+.container-left {
+  padding-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+  overflow-x: hidden;
+}
+
+.container--fluid {
+  width: 100%;
+}

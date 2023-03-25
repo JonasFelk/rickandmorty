@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 220px;
+  span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  ul {
+    margin-bottom: 40px;
+  }
+  li {
+    margin: 5px 5px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color var(--duration) ease-in-out,
+      color var(--duration) ease-in-out;
+    &:hover {
+      color: #fff;
+      background-color: var(--main-hover);
+    }
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 10px 0;
+    border: 1px solid var(--main-active);
+    transition: background-color var(--duration) ease-in-out, color var(--duration) ease-in-out;
+    &:hover {
+      color: #fff;
+      background-color: var(--main-hover);
+    }
+  }
+}
+
+.active {
+  color: #fff;
+  background-color: var(--main-hover);
+}

@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  justify-content: center;
+}
+.imgBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  margin-right: 50px;
+  img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+  }
+  button {
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  li {
+    margin-bottom: 15px;
+    span {
+      font-weight: 500;
+      margin-right: 20px;
+    }
+    button {
+      font-size: 14px;
+      padding: 5px;
+      border: 1px solid #000;
+      transition: background-color var(--duration) ease-in-out,
+        color var(--duration) ease-in-out;
+      &:hover {
+        color: #fff;
+        background-color: var(--main-hover);
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 34px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.episode {
+  margin-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  li {
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+    p {
+      display: inline-block;
+      font-weight: 400;
+    }
+  }
+}
+
+.goBack {
+  padding: 10px;
+  border: 1px solid #000;
+  transition: background-color var(--duration) ease-in-out,
+    color var(--duration) ease-in-out;
+  &:hover {
+    color: #fff;
+    background-color: var(--main-hover);
+  }
+}
