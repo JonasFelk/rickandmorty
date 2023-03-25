@@ -13,6 +13,8 @@ import { useAppDispatch } from '../../redux/store'
 import styles from './Episode.module.scss'
 
 
+
+
 const Episodes: FC = () => {
   // const [episode, setEpisode] = useState<Episode>()
   // const [characters, setCharacters] = useState<Character[]>([])
@@ -84,7 +86,7 @@ const Episodes: FC = () => {
     dispatch(fetchEpisodesSidebar())
     dispatch(fetchEpisode(episode.id))
     window.scrollTo(0, 0)
-  }, [])
+  }, [dispatch, episode.id])
 
   const handleNameEpisode = (id: number) => {
     dispatch(fetchEpisode(id))
