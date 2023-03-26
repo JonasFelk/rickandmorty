@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rickandmorty/static/css/main.689f8279.css",
-    "main.js": "/rickandmorty/static/js/main.b2c9a044.js",
+    "main.js": "/rickandmorty/static/js/main.eb9211b1.js",
     "Characters.css": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css",
     "Characters.js": "/rickandmorty/static/js/Characters.15c672b9.chunk.js",
     "Episode.css": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/pickle-rick.png": "/rickandmorty/static/media/pickle-rick.5b81fe0d04811215c0f8.png",
     "index.html": "/rickandmorty/index.html",
     "main.689f8279.css.map": "/rickandmorty/static/css/main.689f8279.css.map",
-    "main.b2c9a044.js.map": "/rickandmorty/static/js/main.b2c9a044.js.map",
+    "main.eb9211b1.js.map": "/rickandmorty/static/js/main.eb9211b1.js.map",
     "Characters.b35b4ac2.chunk.css.map": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css.map",
     "Characters.15c672b9.chunk.js.map": "/rickandmorty/static/js/Characters.15c672b9.chunk.js.map",
     "Episode.03a21e4f.chunk.css.map": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.689f8279.css",
-    "static/js/main.b2c9a044.js"
+    "static/js/main.eb9211b1.js"
   ]
 }
