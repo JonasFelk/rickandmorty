@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/rickandmorty/static/css/main.1ceea547.css",
-    "main.js": "/rickandmorty/static/js/main.54184977.js",
+    "main.css": "/rickandmorty/static/css/main.689f8279.css",
+    "main.js": "/rickandmorty/static/js/main.b2c9a044.js",
     "Characters.css": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css",
-    "Characters.js": "/rickandmorty/static/js/Characters.09bf30e1.chunk.js",
+    "Characters.js": "/rickandmorty/static/js/Characters.15c672b9.chunk.js",
     "Episode.css": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css",
-    "Episode.js": "/rickandmorty/static/js/Episode.03b670be.chunk.js",
+    "Episode.js": "/rickandmorty/static/js/Episode.039630c7.chunk.js",
     "Locations.css": "/rickandmorty/static/css/Locations.b61b3f04.chunk.css",
-    "Locations.js": "/rickandmorty/static/js/Locations.565efb35.chunk.js",
+    "Locations.js": "/rickandmorty/static/js/Locations.212369b0.chunk.js",
     "static/media/video.mp4": "/rickandmorty/static/media/video.c67f149f5a3120018c8e.mp4",
     "static/media/rick-and-morty-crying.gif": "/rickandmorty/static/media/rick-and-morty-crying.4849d0f1a89ae2ae8bbe.gif",
     "static/media/pickle-rick.png": "/rickandmorty/static/media/pickle-rick.5b81fe0d04811215c0f8.png",
     "index.html": "/rickandmorty/index.html",
-    "main.1ceea547.css.map": "/rickandmorty/static/css/main.1ceea547.css.map",
-    "main.54184977.js.map": "/rickandmorty/static/js/main.54184977.js.map",
+    "main.689f8279.css.map": "/rickandmorty/static/css/main.689f8279.css.map",
+    "main.b2c9a044.js.map": "/rickandmorty/static/js/main.b2c9a044.js.map",
     "Characters.b35b4ac2.chunk.css.map": "/rickandmorty/static/css/Characters.b35b4ac2.chunk.css.map",
-    "Characters.09bf30e1.chunk.js.map": "/rickandmorty/static/js/Characters.09bf30e1.chunk.js.map",
+    "Characters.15c672b9.chunk.js.map": "/rickandmorty/static/js/Characters.15c672b9.chunk.js.map",
     "Episode.03a21e4f.chunk.css.map": "/rickandmorty/static/css/Episode.03a21e4f.chunk.css.map",
-    "Episode.03b670be.chunk.js.map": "/rickandmorty/static/js/Episode.03b670be.chunk.js.map",
+    "Episode.039630c7.chunk.js.map": "/rickandmorty/static/js/Episode.039630c7.chunk.js.map",
     "Locations.b61b3f04.chunk.css.map": "/rickandmorty/static/css/Locations.b61b3f04.chunk.css.map",
-    "Locations.565efb35.chunk.js.map": "/rickandmorty/static/js/Locations.565efb35.chunk.js.map"
+    "Locations.212369b0.chunk.js.map": "/rickandmorty/static/js/Locations.212369b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ceea547.css",
-    "static/js/main.54184977.js"
+    "static/css/main.689f8279.css",
+    "static/js/main.b2c9a044.js"
   ]
 }
