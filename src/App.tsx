@@ -1,9 +1,11 @@
 import React, { FC, Suspense } from 'react'
 import {
+  BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
+  Routes,
 } from 'react-router-dom'
 import { ErrorPage } from './components/ErrorPage'
 import { Loading } from './components/Loading/Loading'
@@ -19,7 +21,6 @@ const Characters = React.lazy(
   () =>
     import(/*webpackChunkName: "Characters"*/ './pages/Characters/Characters')
 )
-
 const Episodes = React.lazy(
   () => import(/*webpackChunkName: "Episode"*/ './pages/Episodes/Episodes')
 )
@@ -30,7 +31,7 @@ const Locations = React.lazy(
 export const App: FC = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/rickandmorty' element={<MainLayout />}>
+      <Route path='/' element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route
           path='/characters'
@@ -61,3 +62,33 @@ export const App: FC = () => {
     </Suspense>
   )
 }
+// export const App: FC = () => {
+//   return (
+
+//     <Routes>
+//       <Route path='/' element={<MainLayout />}>
+//         <Route index element={<Home />} />
+//         <Route
+//           path='/characters'
+//           element={<Characters />}
+//         />
+//         <Route
+//           path='/characters/:id/:name'
+//           element={<SingleCharacter />}
+          
+//         />
+//         <Route
+//           path='/episodes'
+//           element={<Episodes />}
+          
+//         />
+//         <Route
+//           path='/locations'
+//           element={<Locations />}
+//           errorElement={<ErrorPage />}
+//         />
+//       </Route>
+//     </Routes>
+
+//   )
+// }

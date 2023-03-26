@@ -34,7 +34,7 @@ export const NavBar: FC = () => {
           <li>
             <NavLink
               onClick={handleResetCurrentPage}
-              to='characters'
+              to='/characters'
               style={setActive}
             >
               CHARACTERS
