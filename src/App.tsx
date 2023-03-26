@@ -30,7 +30,7 @@ const Locations = React.lazy(
 export const App: FC = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<MainLayout />}>
+      <Route path='/rickandmorty' element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route
           path='/characters'
