@@ -25,7 +25,6 @@ export const Pagination: FC<IPagination> = ({
       previousLabel='←'
       renderOnZeroPageCount={() => null}
       forcePage={currentPage}
-      // initialPage={currentPage}
     />
   )
 }

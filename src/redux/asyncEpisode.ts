@@ -104,7 +104,6 @@ const episodesSlice = createSlice({
       state.error = action.error.message ?? 'Failed to fetch episodes'
     })
     builder.addCase(fetchEpisodesSidebar.fulfilled, (state, action) => {
-      // state.status = Status.LOADING
       state.episodesSidebar = action.payload
     })
     

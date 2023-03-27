@@ -43,33 +43,6 @@ const Locations: FC = () => {
                 <NameSidebar name={'Name'} children={location?.name} />
                 <NameSidebar name={'Type'} children={location?.type} />
                 <NameSidebar name={'Dimension'} children={location?.dimension} />
-                {/* <div>
-                 <span>
-                    {status === Status.LOADING ? (
-                      <SkeletonSidebar />
-                    ) : (
-                      `Name: ${location?.name}`
-                    )}
-                 </span>
-                </div>
-                <div>
-                  <span>
-                    {status === Status.LOADING ? (
-                      <SkeletonSidebar />
-                    ) : (
-                        `Type: ${location?.type}`
-                    )}
-                  </span>
-                </div>
-                <div>
-                  <span>
-                    {status === Status.LOADING ? (
-                      <SkeletonSidebar />
-                    ) : (
-                        `Demission: ${location?.dimension}`
-                    )}
-                  </span>
-                </div> */}
               </div>
               <ul>
                 <span>Locations</span>

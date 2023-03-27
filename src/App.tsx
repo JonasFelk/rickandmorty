@@ -1,17 +1,14 @@
 import React, { FC, Suspense } from 'react'
 import {
-  BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
-  Routes,
 } from 'react-router-dom'
 import { ErrorPage } from './components/ErrorPage'
 import { Loading } from './components/Loading/Loading'
 
 import { MainLayout } from './layouts/MainLayout'
-// import Episodes from './pages/Episodes/Episodes'
 import Home from './pages/Home/Home'
 import SingleCharacter from './pages/SingleCharacter/SingleCharacter'
 
@@ -62,33 +59,3 @@ export const App: FC = () => {
     </Suspense>
   )
 }
-// export const App: FC = () => {
-//   return (
-
-//     <Routes>
-//       <Route path='/' element={<MainLayout />}>
-//         <Route index element={<Home />} />
-//         <Route
-//           path='/characters'
-//           element={<Characters />}
-//         />
-//         <Route
-//           path='/characters/:id/:name'
-//           element={<SingleCharacter />}
-          
-//         />
-//         <Route
-//           path='/episodes'
-//           element={<Episodes />}
-          
-//         />
-//         <Route
-//           path='/locations'
-//           element={<Locations />}
-//           errorElement={<ErrorPage />}
-//         />
-//       </Route>
-//     </Routes>
-
-//   )
-// }

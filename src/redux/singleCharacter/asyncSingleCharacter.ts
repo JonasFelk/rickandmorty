@@ -15,7 +15,6 @@ export const fetchSingleCharacter = createAsyncThunk<
   const { data: singleCharacter } = await axios.get<TCharacter>(
     `https://rickandmortyapi.com/api/character/${id}`
   )
-    
   const characterResponses = await axios.all(
     singleCharacter.episode.map((characterUrl) => axios.get<Episode>(characterUrl))
   )
